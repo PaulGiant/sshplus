@@ -1,0 +1,548 @@
+# Application launchers in a folder
+# ----------------------------------------------------------------
+#
+#	POSTECOM SVIL/COLL
+#
+# ----------------------------------------------------------------
+folder:POSTECOM SVIL/COLL
+label:SVILUPPO
+SVIL PAYMENT GATEWAY|gnome-terminal|--title="SFTP_SVIL_PAYMENT_GATEWAY" -x sshpass -p Sviluppo1234 sftp agodi@192.168.116.217
+SVIL CATASTO|gnome-terminal|--title="SFTP_SVIL_CATASTO" -x sshpass -p Alegod123456 sftp agodi@192.168.116.145
+SVIL CATASTO LINUX|gnome-terminal|--title="SFTP_SVIL_CATASTO_LINUX" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.52.181
+SVIL BRONCHENOLO|gnome-terminal|--title="SFTP_SVIL_BRONCHENOLO" -x sshpass -p Postecom sftp root@192.168.116.29 
+SVIL BRETELLA/PUPPET|gnome-terminal|--title="SFTP_SVIL_BRETELLA/DSA/PUPPET" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.52.114
+SVIL MOBILITY|gnome-terminal|--title="SFTP_SVIL_MOBILITY" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.52.143
+SVIL FESP|gnome-terminal|--title="SFTP_SVIL_FESP" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.52.25
+SVIL ROTOLO|gnome-terminal|--title="SFTP_SVIL_ROTOLO" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.116.45
+SVIL FDR|gnome-terminal|--title="SFTP_SVIL_FDR" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.52.100
+SVIL AMALO SM|gnome-terminal|--title="SFTP_SVIL_AMALO_SM" -x sshpass -p password sftp smuser@amalo.sv.poste.it
+SVIL FSBP|gnome-terminal|--title="SFTP_SVIL_FSBP" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.48.74
+SVIL CARING|gnome-terminal|--title="SFTP_SVIL_CARING" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@10.208.166.105
+SVIL GATEWAY BACHECA|gnome-terminal|--title="SFTP_SVIL_GATEWAY_BACHECA" -x sshpass -p Postecom sftp root@192.168.54.210
+SVIL BACHECA|gnome-terminal|--title="SFTP_SVIL_BACHECA" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.54.203
+SVIL CAS|gnome-terminal|--title="SFTP_SVIL_CAS" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.52.20
+SVIL QAV/JOD-DB|gnome-terminal|--title="SFTP_SVIL_QAV_JOD-DB" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.52.118
+SVIL GED-SVIL-POLICY|gnome-terminal|--title="SFTP_SVIL_GED-SVIL-POLICY" -x sshpass -p Postecom sftp root@ged-svil-policy.sv.poste.it
+SVIL LDAP CECPAC|gnome-terminal|--title="SFTP_SVIL_LDAP_CECPAC" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.48.87
+SVIL RATING|gnome-terminal|--title="SFTP_SVIL_RATING" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.52.150
+SVIL NUOVO SIN vedendolo-c|gnome-terminal|--title="SFTP_SVIL_NUOVO_SIN_vedendolo-c" -x sshpass -p mobiussupp sftp mobius@192.168.116.224
+SVIL NUOVO SIN vedendolo-b|gnome-terminal|--title="SFTP_SVIL_NUOVO_SIN_vedendolo-b" -x sshpass -p mobiussupp sftp mobius@192.168.116.223
+SVIL NUOVO SIN sin-svil-app1|gnome-terminal|--title="SFTP_SVIL_NUOVO_SIN_BE_sin-svil-app1" -x sshpass -p mobiussupp sftp mobius@192.168.116.67
+CV ONLINE INTERNET|gnome-terminal|--title="SFTP_CV_ONLINE_INTERNET" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.55.25
+SVIL HSM|gnome-terminal|--title="SFTP_SVIL_HSM" -x sshpass -p postecom01 sftp root@192.168.174.5
+sep:
+label:VARIE
+SPIDERPORK|gnome-terminal|--title="SFTP_SPIDERPORK" -x sshpass -p plmqazal sftp root@192.168.116.116
+MAVEN|gnome-terminal|--title="SFTP_MAVEN" -x sshpass -p maven sftp maven@192.168.52.121
+JENKINS|gnome-terminal|--title="SFTP_JENKINS" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.48.163
+sep
+label:COLLAUDO
+COLL PAP|gnome-terminal|--title="SFTP_COLL_PAP" -x sshpass -p Postecom sftp root@collPAP
+COLL BRETELLA|gnome-terminal|--title="SFTP_COLL_BRETELLA" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.55.185
+COLL QAV FE|gnome-terminal|--title="SFTP_COLL_QAV_FE" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.54.104
+COLL QAV BE|gnome-terminal|--title="SFTP_COLL_QAV_BE" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.55.213
+COLL FRAUD FE|gnome-terminal|--title="SFTP_COLL_FRAUD_FE" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.54.14
+COLL FRAUD BE|gnome-terminal|--title="SFTP_COLL_FRAUD_BE" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.55.98
+COLL BPOLPOLICY|gnome-terminal|--title="SFTP_COLL_BPOLPOLICY" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.55.173
+COLL INTERWOVEN|gnome-terminal|--title="SFTP_COLL_INTERWOVEN" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.54.245
+COLL GED-TEST-POLICY|gnome-terminal|--title="SFTP_COLL_GED-TEST-POLICY" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@10.208.165.236
+COLL FESP|gnome-terminal|--title="SFTP_COLL_FESP" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.55.246
+COLL CATASTO FE|gnome-terminal|--title="SFTP_COLL_CATASTO_FE" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.54.115
+COLL CATASTO BE|gnome-terminal|--title="SFTP_COLL_CATASTO_BE" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.55.115
+sep
+label:DB
+SVIL ORASVIL2 DB|gnome-terminal|--title="SFTP_SVIL_ORASVIL2_DB" -x sshpass -p Postecom sftp root@192.168.116.198
+SVIL BRUFOLO DB|gnome-terminal|--title="SFTP_SVIL_BRUFOLO_DB" -x sshpass -p oracle sftp oracle@192.168.116.50
+SVIL BRANCOLO DB|gnome-terminal|--title="SFTP_SVIL_BRANCOLO_DB" -x sshpass -p Postecom sftp root@192.168.116.51
+folder:
+# ----------------------------------------------------------------
+#
+#	JOD DB
+#
+# ----------------------------------------------------------------
+folder:JOD-DB
+label:CERTIFICAZIONE
+CERT JOD-DB DUMMY1|gnome-terminal|--title="SFTP_CERT_JOD-DB_DUMMY1" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.58.15
+CERT JOD-DB DUMMY2|gnome-terminal|--title="SFTP_CERT_JOD-DB_DUMMY2" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.58.16
+CERT JOD-DB BE1|gnome-terminal|--title="SFTP_CERT_JOD-DB_BE1" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.59.38
+CERT JOD-DB BE2|gnome-terminal|--title="SFTP_CERT_JOD-DB_BE2" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.59.39
+sep
+label:CSFTP
+CSFTP CERT JOD-DB DUMMY1-2|ctel|pgigante@192.168.58.15 pgigante@192.168.58.16
+CSFTP CERT JOD-DB BE1-2|ctel|pgigante@192.168.59.38 pgigante@192.168.59.39
+folder:
+# ----------------------------------------------------------------
+#
+#	RETAIL (WEBMAILGED)
+#
+# ----------------------------------------------------------------
+folder:RETAIL WEBMAILGED
+label:SVILUPPO
+SVIL PORTAL FE Retail|gnome-terminal|--title="SFTP_SVIL_PORTAL_FE_Retail" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.54.199
+SVIL PORTAL BE Retail|gnome-terminal|--title="SFTP_SVIL_PORTAL_BE_Retail" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.54.200
+SVIL FASCICOLO Retail|gnome-terminal|--title="SFTP_SVIL_FASCICOLO_Retail" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.54.198
+SVIL IAM BE Retail|gnome-terminal|--title="SFTP_SVIL_IAM_BE_Retail" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.54.201
+SVIL XOL BE Retail|gnome-terminal|--title="SFTP_SVIL_XOL_BE_Retail" -x sshpass -p jboss sftp jboss@192.168.52.107
+SVIL CECPAC BE (RealmAdmin)|gnome-terminal|--title="SFTP_SVIL_CECPAC_BE (Realmadmin)" -x sshpass -p Postecom sftp root@192.168.48.87
+SVIL LDAP|gnome-terminal|--title="SFTP_SVIL_LDAP" -x sshpass -p Postecom sftp root@ged-svil-dss.sv.poste.it
+sep
+label:COLLAUDO
+COLL PORTALE FE RETAIL|gnome-terminal|--title="SFTP_COLL_PORTALE_FE_RETAIL" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@10.208.215.136
+COLL PORTALE BE RETAIL|gnome-terminal|--title="SFTP_COLL_PORTALE_BE_RETAIL" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@10.208.165.239
+COLL CARING FE|gnome-terminal|--title="SFTP_COLL_CARING_FE" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@collCARFE
+COLL CARING BE (RealmAdmin)|gnome-terminal|--title="SFTP_COLL_CARING_BE (Realmadmin)" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@10.208.165.233
+COLL CAS RETAIL|gnome-terminal|--title="SFTP_COLL_CAS_RETAIL" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.55.86
+COLL BACHECA|gnome-terminal|--title="SFTP_COLL_BACHECA" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.55.129
+COLL DSA|gnome-terminal|--title="SFTP_COLL_DSA" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@10.208.165.235
+COLL FASCICOLO Retail|gnome-terminal|--title="SFTP_COLL_FASCICOLO_RETAIL" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@10.208.165.241
+COLL XOL-ADOBE|gnome-terminal|--title="SFTP_COLL_XOL-ADOBE" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@10.208.165.204
+COLL IAM FE|gnome-terminal|--title="SFTP_COLL_IAM_FE" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@10.208.215.165
+COLL IAM BE|gnome-terminal|--title="SFTP_COLL_IAM_BE" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@10.208.165.234
+COLL LDAP|gnome-terminal|--title="SFTP_COLL_LDAP" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@10.208.165.212
+sep
+label:CERTIFICAZIONE
+CERT SECURE LOGIN FE1 Retail|gnome-terminal|--title="SFTP_CERT_SECURE_LOGIN_FE1_Retail" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.56.120
+CERT SECURE LOGIN FE2 Retail|gnome-terminal|--title="SFTP_CERT_SECURE_LOGIN_FE2_Retail" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.56.121
+CERT SECURE LOGIN FE3 Retail|gnome-terminal|--title="SFTP_CERT_SECURE_LOGIN_FE3_Retail" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.56.122
+CERT SECURE LOGIN BE1 Retail|gnome-terminal|--title="SFTP_CERT_SECURE_LOGIN_BE1_Retail" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.58.182
+CERT SECURE LOGIN BE2 Retail|gnome-terminal|--title="SFTP_CERT_SECURE_LOGIN_BE2_Retail" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.58.183
+CERT SECURE LOGIN BE3 Retail|gnome-terminal|--title="SFTP_CERT_SECURE_LOGIN_BE3_Retail" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.58.184
+CERT PORTALE FE1 RETAIL|gnome-terminal|--title="SFTP_CERT_PORTALE_FE1_RETAIL" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@10.208.241.19
+CERT PORTALE FE2 RETAIL|gnome-terminal|--title="SFTP_CERT_PORTALE_FE2_RETAIL" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@10.208.241.20
+CERT PORTALE FE3 RETAIL|gnome-terminal|--title="SFTP_CERT_PORTALE_FE3_RETAIL" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@10.208.241.21
+CERT PORTALE BE1 RETAIL|gnome-terminal|--title="SFTP_CERT_PORTALE_BE1_RETAIL" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@10.208.179.142
+CERT PORTALE BE2 RETAIL|gnome-terminal|--title="SFTP_CERT_PORTALE_BE2_RETAIL" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@10.208.179.143
+CERT PORTALE BE3 RETAIL|gnome-terminal|--title="SFTP_CERT_PORTALE_BE3_RETAIL" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@10.208.179.144
+folder:
+# ----------------------------------------------------------------
+#
+#	BUSINESS (POSTEMAILBOX)
+#
+# ----------------------------------------------------------------
+folder:BUSINESS POSTEMAILBOX
+label:SVILUPPO
+SVIL PORTAL FE Business|gnome-terminal|--title="SFTP_SVIL_PORTAL_FE_Business" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.116.18
+SVIL PORTAL BE Business|gnome-terminal|--title="SFTP_SVIL_PORTAL_BE_Business" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.116.22
+SVIL CSM|gnome-terminal|--title="SFTP_SVIL_CSM" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.48.233
+SVIL XOL FE SGP|gnome-terminal|--title="SFTP_SVIL_XOL_FE_SGP" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.48.78
+SVIL XOL BE Business|gnome-terminal|--title="SFTP_SVIL_XOL_BE_Business" -x sshpass -p jboss sftp jboss@192.168.116.180
+SVIL FASCICOLO Business|gnome-terminal|--title="SFTP_SVIL_FASCICOLO_Business" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.48.68
+SVIL REG t2000|gnome-terminal|--title="SFTP_SVIL_REG_t2000" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@t2000svil1-b.sv.poste.it
+sep
+label:COLLAUDO
+COLL PORTALE FE BUSINESS|gnome-terminal|--title="SFTP_COLL_PORTALE_FE_BUSINESS" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.54.234
+COLL PORTALE BE BUSINESS|gnome-terminal|--title="SFTP_COLL_PORTALE_BE_BUSINESS" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@collCCS_PW_BE
+COLL BACHECA BUSINESS|gnome-terminal|--title="SFTP_COLL_BACHECA_BUSINESS" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.55.195
+COLL CAS BUSINESS|gnome-terminal|--title="SFTP_COLL_CAS_BUSINESS" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.55.142
+COLL XOL FE Business|gnome-terminal|--title="SFTP_COLL_XOL_FE_Business" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.54.192
+COLL XOL BE Business|gnome-terminal|--title="SFTP_COLL_XOL_BE_Business" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.55.204
+COLL VM-PMB-POLICY|gnome-terminal|--title="SFTP_COLL_VM-PMB-POLICY" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.55.198
+COLL CSM BUSINESS|gnome-terminal|--title="SFTP_COLL_CSM_BUSINESS" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.55.197
+sep
+label:CERTIFICAZIONE
+CERT PORTALE BE1 BUSINESS|gnome-terminal|--title="SFTP_CERT_PORTALE_BE1_BUSINESS" -x sshpass -p Sviluppo.1234 sftp fcarcani@10.208.183.228
+CERT PORTALE BE2 BUSINESS|gnome-terminal|--title="SFTP_CERT_PORTALE_BE2_BUSINESS" -x sshpass -p Sviluppo.1234 sftp fcarcani@10.208.183.229
+CERT CARING FE1 BUSINESS|gnome-terminal|--title="SFTP_CERT_CARING_FE1_BUSINESS" -x sshpass -p Sviluppo.1234 sftp fcarcani@10.208.241.19
+CERT CARING BE1 BUSINESS|gnome-terminal|--title="SFTP_CERT_CARING_BE1_BUSINESS" -x sshpass -p Sviluppo.1234 sftp fcarcani@10.208.169.187
+folder:
+# ----------------------------------------------------------------
+#
+#	SPID
+#
+# ----------------------------------------------------------------
+folder:SPID
+label:SVILUPPO
+SVIL SPID OLD|gnome-terminal|--title="SFTP_SVIL_SPID_OLD" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.52.162
+SVIL SPID PORTAL|gnome-terminal|--title="SFTP_SVIL_SPID_PORTAL" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.52.190
+SVIL SPID LOGIN|gnome-terminal|--title="SFTP_SVIL_SPID_LOGIN" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.52.189
+SVIL SPID IDP|gnome-terminal|--title="SFTP_SVIL_SPID_IDP" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.52.192
+SVIL SPID DSS|gnome-terminal|--title="SFTP_SVIL_SPID_DSS" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.52.191
+SVIL SPID IAM|gnome-terminal|--title="SFTP_SVIL_SPID_IAM" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.52.193
+SVIL SPID HSM|gnome-terminal|--title="SFTP_SVIL_SPID_HSM" -x sshpass -p postecom01 sftp root@192.168.174.5
+sep
+label:SVIL SI
+SVIL SI SPID FE1|gnome-terminal|--title="SFTP_SVIL_SI_SPID_FE1" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.54.142
+SVIL SI SPID BE1 JOD FS|gnome-terminal|--title="SFTP_SVIL_SI_SPID_BE1_JOD-FS" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.55.130
+SVIL SI SPID BE2 JOD FS SP|gnome-terminal|--title="SFTP_SVIL_SI_SPID_BE2_JOD-FS-SP" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.55.131
+label:COLLAUDO
+sep
+label:CERTIFICAZIONE
+CERT SPID IDP FE1|gnome-terminal|--title="SFTP_CERT_SPID_IDP_FE1" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.56.196
+CERT SPID IDP FE2|gnome-terminal|--title="SFTP_CERT_SPID_IDP_FE2" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.56.197
+CERT SPID IDP BE1|gnome-terminal|--title="SFTP_CERT_SPID_IDP_BE1" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.58.222
+CERT SPID IDP BE2|gnome-terminal|--title="SFTP_CERT_SPID_IDP_BE2" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.58.223
+CERT SPID LOGIN FE1|gnome-terminal|--title="SFTP_CERT_SPID_LOGIN_FE1" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.56.198
+CERT SPID LOGIN FE2|gnome-terminal|--title="SFTP_CERT_SPID_LOGIN_FE2" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.56.199
+CERT SPID LOGIN BE1|gnome-terminal|--title="SFTP_CERT_SPID_LOGIN_BE1" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.58.224
+CERT SPID LOGIN BE2|gnome-terminal|--title="SFTP_CERT_SPID_LOGIN_BE2" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.58.225
+CERT SPID PORTAL FE1|gnome-terminal|--title="SFTP_CERT_SPID_PORTAL_FE1" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.56.200
+CERT SPID PORTAL FE2|gnome-terminal|--title="SFTP_CERT_SPID_PORTAL_FE2" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.56.201
+CERT SPID PORTAL BE1|gnome-terminal|--title="SFTP_CERT_SPID_PORTAL_BE1" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.58.226
+CERT SPID PORTAL BE2|gnome-terminal|--title="SFTP_CERT_SPID_PORTAL_BE2" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.58.227
+CERT SPID SP|gnome-terminal|--title="SFTP_CERT_SPID_SP" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.56.149
+sep
+label:CSFTP
+CSFTP CERT SPID IDP FE1-2|ctel|pgigante@192.168.56.196 pgigante@192.168.56.197 
+CSFTP CERT SPID IDP BE1-2|ctel|pgigante@192.168.58.222 pgigante@192.168.58.223
+CSFTP CERT SPID LOGIN FE1-2|ctel|pgigante@192.168.56.198 pgigante@192.168.56.199
+CSFTP CERT SPID LOGIN BE1-2|ctel|pgigante@192.168.58.224 pgigante@192.168.58.225
+CSFTP CERT SPID PORTAL FE1-2|ctel|pgigante@192.168.56.200 pgigante@192.168.56.201
+CSFTP CERT SPID PORTAL BE1-2|ctel|pgigante@192.168.58.226 pgigante@192.168.58.227
+sep
+folder:
+# ----------------------------------------------------------------
+#
+#	POSTECERT
+#
+# ----------------------------------------------------------------
+folder:POSTECERT
+label:SVILUPPO
+SVIL POSTECERT WF|gnome-terminal|--title="SFTP_SVIL_POSTECERT_WF" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.52.162
+sep
+label:COLLAUDO
+sep
+folder:
+# ----------------------------------------------------------------
+#
+#	INVITALIA
+#
+# ----------------------------------------------------------------
+folder:INVITALIA SMART&START
+label:SVILUPPO
+SS SVIL SMART&START|gnome-terminal|--title="SFTP_SS_SVIL_INVITALIA_SMART&START" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.52.116
+SS SVIL ZFU|gnome-terminal|--title="SFTP_SS_SVIL_ZFU" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.52.117
+SS SVIL MACCH-BO|gnome-terminal|--title="SFTP_SS_SVIL_MACCH-BO" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.52.123
+sep
+label:COLLAUDO
+SS COLL FE|gnome-terminal|--title="SFTP_SS_COLL_FE" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.54.36
+SS COLL BE|gnome-terminal|--title="SFTP_SS_COLL_BE" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.55.55
+SS COLL LDAP|gnome-terminal|--title="SFTP_SS_COLL_LDAP" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.57.13
+SS COLL LIFERAY1|gnome-terminal|--title="SFTP_SS_COLL_LIFERAY1" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.55.155
+SS COLL LIFERAY2|gnome-terminal|--title="SFTP_SS_COLL_LIFERAY2" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.55.156
+SS COLL ALFRESCO1|gnome-terminal|--title="SFTP_SS_COLL_ALFRESCO1" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.55.61
+SS COLL ALFRESCO2|gnome-terminal|--title="SFTP_SS_COLL_ALFRESCO2" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.55.76
+sep
+label:COLLAUDO ZFU
+SS ZFU COLL FE|gnome-terminal|--title="SFTP_SS_ZFU_COLL_FE" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.54.97
+SS ZFU COLL BE|gnome-terminal|--title="SFTP_SS_ZFU_COLL_BE" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.55.183
+SS ZFU COLL FE BACKOFFICE|gnome-terminal|--title="SFTP_SS_ZFU_COLL_FE_BACKOFFICE" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.54.160
+SS ZFU COLL BE BACKOFFICE|gnome-terminal|--title="SFTP_SS_ZFU_COLL_BE_BACKOFFICE" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.55.221
+sep
+label:CERTIFICAZIONE ZFU
+SS ZFU CERT FE1|gnome-terminal|--title="SFTP_SS_ZFU_CERT_FE1" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.56.112
+SS ZFU CERT FE2|gnome-terminal|--title="SFTP_SS_ZFU_CERT_FE2" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.56.113
+SS ZFU CERT BE1|gnome-terminal|--title="SFTP_SS_ZFU_CERT_BE1" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.58.130
+SS ZFU CERT BE2|gnome-terminal|--title="SFTP_SS_ZFU_CERT_BE2" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.58.131
+folder:
+# ----------------------------------------------------------------
+#
+#	COMUNICA E COLLABORA
+#
+# ----------------------------------------------------------------
+folder:COMUNICA E COLLABORA
+label:SVILUPPO
+CCS SVIL PCLOUD|gnome-terminal|--title="SFTP_CCS_SVIL_PCLOUD" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.52.75
+sep
+label:COLLAUDO
+CCS COLL CAS|gnome-terminal|--title="SFTP_CCS_COLL_CAS" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.55.86
+CCS COLL CRMD|gnome-terminal|--title="SFTP_CCS_COLL_CRMD" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.55.121
+CCS COLL IW|gnome-terminal|--title="SFTP_CCS_COLL_IW" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.54.245
+CCS COLL PCLOUD FE|gnome-terminal|--title="SFTP_CCS_COLL_PCLOUD_FE" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.54.57
+CCS COLL PCLOUD BE IDP|gnome-terminal|--title="SFTP_CCS_COLL_PCLOUD_BE_IDP" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.55.93
+CCS COLL PORTAL FE|gnome-terminal|--title="SFTP_CCS_COLL_PORTAL_FE" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.54.234
+CCS COLL PORTAL BE|gnome-terminal|--title="SFTP_CCS_COLL_PORTAL_BE" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.55.193
+CCS COLL TINY CRM|gnome-terminal|--title="SFTP_CCS_COLL_TINY_CRM" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.55.88
+folder:
+# ----------------------------------------------------------------
+#
+#	POSTESALUTE
+#
+# ----------------------------------------------------------------
+folder:POSTESALUTE
+label:SVILUPPO
+PSALUTE SVIL PORTAL|gnome-terminal|--title="SFTP_PSALUTE_SVIL_PORTAL_" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.52.18
+PSALUTE SVIL PORTAL1|gnome-terminal|--title="SFTP_PSALUTE_SVIL_PORTAL1" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.52.42
+PSALUTE SVIL PORTAL2|gnome-terminal|--title="SFTP_PSALUTE_SVIL_PORTAL2" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.52.43
+label:COLLAUDO
+PSALUTE COLL PORTAL FE|gnome-terminal|--title="SFTP_PSALUTE_COLL_PORTAL_FE" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.54.49
+PSALUTE COLL PORTAL BE|gnome-terminal|--title="SFTP_PSALUTE_COLL_PORTAL_BE" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.55.82
+PSALUTE COLL CALENDAR|gnome-terminal|--title="SFTP_PSALUTE_COLL_CALENDAR" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.55.84
+PSALUTE COLL CRM|gnome-terminal|--title="SFTP_PSALUTE_COLL_CRM" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.55.88
+PSALUTE COLL IDP|gnome-terminal|--title="SFTP_PSALUTE_COLL_IDP" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.55.83
+PSALUTE COLL DOC|gnome-terminal|--title="SFTP_PSALUTE_COLL_DOC" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.55.85
+sep
+label:PRODUZIONE
+PSALUTE PROD PORTAL FE1|gnome-terminal|--title="SFTP_PSALUTE_PROD_PORTAL_FE1" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.46.70
+PSALUTE PROD PORTAL FE2|gnome-terminal|--title="SFTP_PSALUTE_PROD_PORTAL_FE2" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.46.71
+PSALUTE PROD PORTAL BE1|gnome-terminal|--title="SFTP_PSALUTE_PROD_PORTAL_BE1" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.47.70
+PSALUTE PROD PORTAL BE2|gnome-terminal|--title="SFTP_PSALUTE_PROD_PORTAL_BE2" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.47.71
+PSALUTE PROD CAL1|gnome-terminal|--title="SFTP_PSALUTE_PROD_CAL1" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.47.72
+PSALUTE PROD CAL2|gnome-terminal|--title="SFTP_PSALUTE_PROD_CAL2" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.47.73
+PSALUTE PROD CRM1|gnome-terminal|--title="SFTP_PSALUTE_PROD_CRM1" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.81.146
+PSALUTE PROD CRM2|gnome-terminal|--title="SFTP_PSALUTE_PROD_CRM2" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.81.147
+PSALUTE PROD DOC1|gnome-terminal|--title="SFTP_PSALUTE_PROD_DOC1" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.109.70
+PSALUTE PROD DOC2|gnome-terminal|--title="SFTP_PSALUTE_PROD_DOC2" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.109.71
+folder:
+# ----------------------------------------------------------------
+#
+#	GARAPATENTI
+#
+# ----------------------------------------------------------------
+folder:GARA PATENTI
+label:SVILUPPO 
+GARAPATENTI SVIL SLAM|gnome-terminal|--title="SFTP_GARAPATENTI_SVIL_SLAM" -x sshpass -p patenti sftp patenti@192.168.52.80
+GARAPATENTI SVIL PORTALE/BPM|gnome-terminal|--title="SFTP_GARAPATENTI_SVIL_PORTALE_BPM" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.52.186
+sep
+label:COLLAUDO
+GARAPATENTI COLL BOLL VIRT|gnome-terminal|--title="SFTP_GARAPATENTI_COLL_BOLL_VIRT" -x sshpass -p patenti sftp patenti@192.168.55.106
+GARAPATENTI COLL BPM1|gnome-terminal|--title="SFTP_GARAPATENTI_COLL_BPM1" -x sshpass -p cambiami sftp vaccarim@192.168.55.112
+GARAPATENTI COLL BPM2|gnome-terminal|--title="SFTP_GARAPATENTI_COLL_BPM2" -x sshpass -p Postecom.1 sftp patenti@192.168.55.49
+GARAPATENTI COLL FATT|gnome-terminal|--title="SFTP_GARAPATENTI_COLL_FATT" -x sshpass -p patenti sftp patenti@192.168.55.107
+GARAPATENTI COLL PORTAL BE|gnome-terminal|--title="SFTP_GARAPATENTI_COLL_PORTAL_BE" -x sshpass -p cambiami sftp vaccarim@192.168.55.109
+GARAPATENTI COLL SLAM|gnome-terminal|--title="SFTP_GARAPATENTI_COLL_SLAM" -x sshpass -p patenti sftp patenti@192.168.55.108
+GARAPATENTI COLL NEW BPM|gnome-terminal|--title="SFTP_GARAPATENTI_COLL_NEW_BPM" -x sshpass -p cambiami sftp vaccarim@192.168.19.70
+sep
+label:CERTIFICAZIONE
+GARAPATENTI CERT FATT BE1|gnome-terminal|--title="SFTP_GARAPATENTI_CERT_FATT_BE1" -x sshpass -p Simonetta300 sftp mvaccari@192.168.58.148
+GARAPATENTI CERT FATT BE2|gnome-terminal|--title="SFTP_GARAPATENTI_CERT_FATT_BE2" -x sshpass -p Simonetta300 sftp mvaccari@192.168.58.149
+label:PRODUZIONE
+GARAPATENTI PROD BPM1|gnome-terminal|--title="SFTP_GARAPATENTI_PROD_BPM1" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp gigantep@192.168.20.70
+GARAPATENTI PROD BPM2|gnome-terminal|--title="SFTP_GARAPATENTI_PROD_BPM2" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp gigantep@192.168.20.71
+GARAPATENTI PROD PORTAL BE1|gnome-terminal|--title="SFTP_GARAPATENTI_PROD_PORTAL_BE1" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp gigantep@192.168.20.74
+GARAPATENTI PROD PORTAL BE2|gnome-terminal|--title="SFTP_GARAPATENTI_PROD_PORTAL_BE2" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp gigantep@prodPW2
+GARAPATENTI PROD SLAM|gnome-terminal|--title="SFTP_GARAPATENTI_PROD_SLAM" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp gigantep@192.168.20.90
+folder:
+# ----------------------------------------------------------------
+#
+#	PORTALE DELL'AUTOMOBILISTA
+#
+# ----------------------------------------------------------------
+folder:PORTALE DELL'AUTOMOBILISTA
+label:SVILUPPO
+PDA SVIL TARIFFARIO-JBOSS6|gnome-terminal|--title="SFTP_PDA_SVIL_TARIFFARIO" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.52.153
+label:COLLAUDO
+PDA COLL BATCH|gnome-terminal|--title="SFTP_PDA_COLL_BATCH" -x sshpass -p C@mbiam1 sftp deployy@192.168.26.72
+PDA COLL LIFERAY|gnome-terminal|--title="SFTP_PDA_COLL_LIFERAY" -x sshpass -p C@mbiam1 sftp deployy@192.168.26.75
+PDA COLL PORTALE PAGAMENTI BE1|gnome-terminal|--title="SFTP_PDA_COLL_PORTALE_PAGAMENTI_BE1" -x sshpass -p cambiami sftp cstifano@192.168.26.68
+PDA COLL PORTALE PAGAMENTI BE2|gnome-terminal|--title="SFTP_PDA_COLL_PORTALE_PAGAMENTI_BE2" -x sshpass -p cambiami sftp cstifano@192.168.26.69
+PDA COLL PORTALE REVISIONI BE1|gnome-terminal|--title="SFTP_PDA_COLL_PORTALE_REVISIONI_BE1" -x sshpass -p cambiami sftp cstifano@192.168.26.70
+PDA COLL PORTALE REVISIONI BE2|gnome-terminal|--title="SFTP_PDA_COLL_PORTALE_REVISIONI_BE2" -x sshpass -p cambiami sftp cstifano@192.168.26.71
+folder:
+# ----------------------------------------------------------------
+#
+#	ECOMMERCE/REPORT_MARKETPLACE
+#
+# ----------------------------------------------------------------
+folder:ECOMMERCE/REPORT BP
+label:SVILUPPO
+ECOMMERCE SVIL RP-MARKETPLACE|gnome-terminal|--title="SFTP_ECOMMERCE_SVIL_RP_MARKETPLACE" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.52.158
+label:COLLAUDO
+ECOMMERCE COLL FE RP-MARKETPLACE|gnome-terminal|--title="SFTP_ECOMMERCE_COLL_FE_RP_MARKETPLACE" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.54.101
+ECOMMERCE COLL BE RP-MARKETPLACE|gnome-terminal|--title="SFTP_ECOMMERCE_COLL_BE_RP_MARKETPLACE" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.55.164
+folder:
+# ----------------------------------------------------------------
+#
+#	WEBMAILGED GESTORE SERVIZI
+#
+# ----------------------------------------------------------------
+folder:WEBMAILGED GS
+label:SVILUPPO
+WMGED SVIL GNW1|gnome-terminal|--title="SFTP_WMGED_SVIL_GNW1" -x sshpass -p jboss sftp jboss@svilGN1
+WMGED SVIL GNW2|gnome-terminal|--title="SFTP_WMGED_SVIL_GNW2" -x sshpass -p jboss sftp jboss@svilGN2
+WMGED SVIL GSW1|gnome-terminal|--title="SFTP_WMGED_SVIL_GSW1" -x sshpass -p jboss sftp jboss@svilGSW1
+WMGED SVIL GSW2|gnome-terminal|--title="SFTP_WMGED_SVIL_GSW2" -x sshpass -p jboss sftp jboss@svilGSW2
+WMGED SVIL PAD|gnome-terminal|--title="SFTP_WMGED_SVIL_PAD" -x sshpass -p jboss sftp jboss@svilPAD
+WMGED SVIL RPE|gnome-terminal|--title="SFTP_WMGED_SVIL_RPE" -x sshpass -p jboss sftp jboss@svilRPE
+sep
+label:COLLAUDO
+WMGED TEST GNW1|gnome-terminal|--title="SFTP_WMGED_TEST_GNW1" -x sshpass -p jboss sftp jboss@collGN1
+WMGED TEST GNW2|gnome-terminal|--title="SFTP_WMGED_TEST_GNW2" -x sshpass -p jboss sftp jboss@collGN2
+WMGED TEST GSW1|gnome-terminal|--title="SFTP_WMGED_TEST_GSW1" -x sshpass -p jboss sftp jboss@collGS1
+WMGED TEST GSW2|gnome-terminal|--title="SFTP_WMGED_TEST_GSW2" -x sshpass -p jboss sftp jboss@collGS2
+WMGED TEST PAD|gnome-terminal|--title="SFTP_WMGED_TEST_PAD" -x sshpass -p jboss sftp jboss@collPAD
+WMGED TEST RPE1|gnome-terminal|--title="SFTP_WMGED_TEST_RPE1" -x sshpass -p jboss sftp jboss@10.208.129.164
+sep
+label:CERTIFICAZIONE
+WMGED CERT GSW1|gnome-terminal|--title="SFTP_WMGED_CERT_GSW1" -x sshpass -p t4us3r sftp tauser@certGSW1
+WMGED CERT GSW2|gnome-terminal|--title="SFTP_WMGED_CERT_GSW2" -x sshpass -p t4us3r sftp tauser@certGSW2
+WMGED CERT GSW3|gnome-terminal|--title="SFTP_WMGED_CERT_GSW3" -x sshpass -p t4us3r sftp tauser@certGSW3
+WMGED CERT GSW4|gnome-terminal|--title="SFTP_WMGED_CERT_GSW4" -x sshpass -p t4us3r sftp tauser@certGSW4
+WMGED CERT GSW5|gnome-terminal|--title="SFTP_WMGED_CERT_GSW5" -x sshpass -p t4us3r sftp tauser@certGSW5
+WMGED CERT GSW6|gnome-terminal|--title="SFTP_WMGED_CERT_GSW6" -x sshpass -p t4us3r sftp tauser@certGSW6
+WMGED CERT GNW1|gnome-terminal|--title="SFTP_WMGED_CERT_GNW1" -x sshpass -p t4us3r sftp tauser@certGNW1
+WMGED CERT GNW2|gnome-terminal|--title="SFTP_WMGED_CERT_GNW2" -x sshpass -p t4us3r sftp tauser@certGNW2
+WMGED CERT RPE1|gnome-terminal|--title="SFTP_WMGED_CERT_RPE1" -x sshpass -p t4us3r sftp tauser@certRPE1
+WMGED CERT PAD1|gnome-terminal|--title="SFTP_WMGED_CERT_PAD1" -x sshpass -p t4us3r sftp tauser@certPAD1
+WMGED CERT PAD2|gnome-terminal|--title="SFTP_WMGED_CERT_PAD2" -x sshpass -p t4us3r sftp tauser@certPAD2
+sep
+label:CSFTP
+CSFTP CERT GSW-1-2-3-4-5-6|ctel|tauser@certGSW1 tauser@certGSW2 tauser@certGSW3 tauser@certGSW4 tauser@certGSW5
+sep
+label:PRODUZIONE
+WMGED PROD GSW1|gnome-terminal|--title="SFTP_WMGED_PROD_GSW1" -x sshpass -p t4us3r sftp tauser@prodGSW1
+WMGED PROD GSW2|gnome-terminal|--title="SFTP_WMGED_PROD_GSW2" -x sshpass -p t4us3r sftp tauser@prodGSW2
+WMGED PROD GSW5|gnome-terminal|--title="SFTP_WMGED_PROD_GSW5" -x sshpass -p t4us3r sftp tauser@prodGSW5
+WMGED PROD GSW6|gnome-terminal|--title="SFTP_WMGED_PROD_GSW6" -x sshpass -p t4us3r sftp tauser@prodGSW6
+WMGED PROD GSW21|gnome-terminal|--title="SFTP_WMGED_PROD_GSW21" -x sshpass -p t4us3r sftp tauser@prodGSW21
+WMGED PROD GSW22|gnome-terminal|--title="SFTP_WMGED_PROD_GSW22" -x sshpass -p Pam_car6 sftp carosellip@prodGSW22
+WMGED PROD GSW23|gnome-terminal|--title="SFTP_WMGED_PROD_GSW23" -x sshpass -p Pam_car6 sftp carosellip@prodGSW23
+WMGED PROD GSW24|gnome-terminal|--title="SFTP_WMGED_PROD_GSW24" -x sshpass -p Pam_car6 sftp carosellip@prodGSW24
+WMGED PROD GNW1|gnome-terminal|--title="SFTP_WMGED_PROD_GNW1" -x sshpass -p t4us3r sftp carosellip@prodGN1
+WMGED PROD GNW2|gnome-terminal|--title="SFTP_WMGED_PROD_GNW2" -x sshpass -p t4us3r sftp carosellip@prodGN2
+WMGED PROD GNW3|gnome-terminal|--title="SFTP_WMGED_PROD_GNW3" -x sshpass -p t4us3r sftp carosellip@prodGN3
+WMGED PROD GNW4|gnome-terminal|--title="SFTP_WMGED_PROD_GNW4" -x sshpass -p t4us3r sftp carosellip@prodGN4
+WMGED PROD GNW5|gnome-terminal|--title="SFTP_WMGED_PROD_GNW5" -x sshpass -p t4us3r sftp carosellip@prodGN5
+WMGED PROD GNW6|gnome-terminal|--title="SFTP_WMGED_PROD_GNW6" -x sshpass -p t4us3r sftp carosellip@prodGN6
+WMGED PROD RPE1|gnome-terminal|--title="SFTP_WMGED_PROD_RPE1" -x sshpass -p t4us3r sftp carosellip@prodRPEX1
+WMGED PROD RPE2|gnome-terminal|--title="SFTP_WMGED_PROD_RPE2" -x sshpass -p t4us3r sftp carosellip@prodRPEX2
+WMGED PROD PAD1|gnome-terminal|--title="SFTP_WMGED_PROD_PAD1" -x sshpass -p t4us3r sftp carosellip@10.208.174.100
+WMGED PROD PAD2|gnome-terminal|--title="SFTP_WMGED_PROD_PAD2" -x sshpass -p t4us3r sftp carosellip@10.208.174.101
+WMGED PROD DBW1|gnome-terminal|--title="SFTP_WMGED_PROD_DBW1" -x sshpass -p t4us3r sftp carosellip@prodDBW1
+WMGED PROD DBW2|gnome-terminal|--title="SFTP_WMGED_PROD_DBW2" -x sshpass -p t4us3r sftp carosellip@prodDBW2
+folder:
+# ----------------------------------------------------------------
+#
+#	JOD CMS
+#
+# ----------------------------------------------------------------
+folder:JOD-CMS
+label:SVILUPPO
+SVIL JOD-CMS FE|gnome-terminal|--title="SFTP_SVIL_JOD-CMS_FE" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.52.132
+SVIL JOD-CMS BE|gnome-terminal|--title="SFTP_SVIL JOD-CMS_BE" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.52.135
+SVIL JOD-CMS FE PREVIEW|gnome-terminal|--title="SFTP_SVIL_JOD-CMS_FE_PREVIEW" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.52.133
+SVIL JOD-CMS BE PREVIEW|gnome-terminal|--title="SFTP_SVIL_JOD-CMS_BE_PREVIEW" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.52.136
+SVIL JOD-CMS PUBLISHER|gnome-terminal|--title="SFTP_SVIL_JOD-CMS_PUBLISHER" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.52.137
+SVIL JOD-CMS FE DELIVERY|gnome-terminal|--title="SFTP_SVIL_JOD-CMS_FE_DELIVERY" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.52.134
+SVIL JOD-CMS BE DELIVERY|gnome-terminal|--title="SFTP_SVIL_JOD-CMS_BE_DELIVERY" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@192.168.52.138
+sep
+label:COLLAUDO
+folder:
+# ----------------------------------------------------------------
+#
+#	CECPAC
+#
+# ----------------------------------------------------------------
+folder:CECPAC 
+label:SVILUPPO
+CECPAC SVIL GST|gnome-terminal|--title="SFTP_CECPAC_SVIL_GST" -x sshpass -p Passw0rd sftp root@172.18.105.180
+CECPAC SVIL SLARFE|gnome-terminal|--title="SFTP_CECPAC_SVIL_SLARFE" -x sshpass -p Passw0rd sftp root@172.18.105.46
+CECPAC SVIL SLARBE|gnome-terminal|--title="SFTP_CECPAC_SVIL_SLARBE" -x sshpass -p Passw0rd sftp root@172.18.105.181
+CECPAC SVIL PROFCLI FE|gnome-terminal|--title="SFTP_CECPAC_SVIL_PROFCLI_FE" -x sshpass -p Passw0rd sftp root@172.18.105.176
+CECPAC SVIL PROFCLI BE|gnome-terminal|--title="SFTP_CECPAC_SVIL_PROFCLI_BE" -x sshpass -p Passw0rd sftp root@172.18.105.177
+CECPAC SVIL NE|gnome-terminal|--title="SFTP_CECPAC_SVIL_NE" -x sshpass -p Passw0rd sftp root@172.18.105.182
+CECPAC SVIL RPU FE|gnome-terminal|--title="SFTP_CECPAC_SVIL_RPU_FE" -x sshpass -p Passw0rd sftp root@172.18.105.45
+CECPAC SVIL RPU BE1|gnome-terminal|--title="SFTP_CECPAC_SVIL_RPU_BE1" -x sshpass -p Passw0rd sftp root@172.18.105.178
+CECPAC SVIL RPU BE2|gnome-terminal|--title="SFTP_CECPAC_SVIL_RPU_BE2" -x sshpass -p Passw0rd sftp root@172.18.105.179
+CECPAC SVIL CALENDAR BE|gnome-terminal|--title="SFTP_CECPAC_SVIL_CALENDAR_BE" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@172.18.105.136
+CECPAC SVIL IAM BE|gnome-terminal|--title="SFTP_CECPAC_SVIL_IAM_BE" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@172.18.105.152
+CECPAC SVIL IAM IPA|gnome-terminal|--title="SFTP_CECPAC_SVIL_IPA" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@172.18.105.27
+sep
+label:PREPRODUZIONE
+CECPAC PPROD GS1|gnome-terminal|--title="SFTP_CECPAC_PPROD_GS1" -x sshpass -p cecpac.27! sftp fr008583@pprodGS1
+CECPAC PPROD GS2|gnome-terminal|--title="SFTP_CECPAC_PPROD_GS2" -x sshpass -p cecpac.27! sftp fr008583@pprodGS2
+CECPAC PPROD NE1|gnome-terminal|--title="SFTP_CECPAC_PPROD_NE1" -x sshpass -p cecpac.27! sftp fr008583@pprodNE1
+CECPAC PPROD NE2|gnome-terminal|--title="SFTP_CECPAC_PPROD_NE2" -x sshpass -p cecpac.27! sftp fr008583@pprodNE2
+CECPAC PPROD RP1|gnome-terminal|--title="SFTP_CECPAC_PPROD_RP1" -x sshpass -p cecpac.27! sftp fr008583@pprodRP1
+CECPAC PPROD RP2|gnome-terminal|--title="SFTP_CECPAC_PPROD_RP2" -x sshpass -p cecpac.27! sftp fr008583@pprodRP2
+CECPAC PPROD RP3|gnome-terminal|--title="SFTP_CECPAC_PPROD_RP3" -x sshpass -p cecpac.27! sftp fr008583@pprodRP3
+CECPAC PPROD RP4|gnome-terminal|--title="SFTP_CECPAC_PPROD_RP4" -x sshpass -p cecpac.27! sftp fr008583@pprodRP4
+CECPAC PPROD RPFE1|gnome-terminal|--title="SFTP_CECPAC_PPROD_RPFE1" -x sshpass -p cecpac.27! sftp fr008583@pprodRPFE1
+CECPAC PPROD RPFE2|gnome-terminal|--title="SFTP_CECPAC_PPROD_RPFE2" -x sshpass -p cecpac.27! sftp fr008583@pprodRPFE2
+CECPAC PPROD SLARFE1|gnome-terminal|--title="SFTP_CECPAC_PPROD_SLARFE1" -x sshpass -p cecpac.27! sftp fr008583@pprodSLARFE1
+CECPAC PPROD SLARFE2|gnome-terminal|--title="SFTP_CECPAC_PPROD_SLARFE2" -x sshpass -p cecpac.27! sftp fr008583@pprodSLARFE2
+CECPAC PPROD SLARBE1|gnome-terminal|--title="SFTP_CECPAC_PPROD_SLARBE1" -x sshpass -p cecpac.27! sftp fr008583@pprodSLAR1
+CECPAC PPROD SLARBE2|gnome-terminal|--title="SFTP_CECPAC_PPROD_SLARBE2" -x sshpass -p cecpac.27! sftp fr008583@pprodSLAR2
+CECPAC PPROD CRMFE1|gnome-terminal|--title="SFTP_CECPAC PPROD CRMFE1" -x sshpass -p Sviluppo.28! sftp fr008583@172.18.105.161
+CECPAC PPROD CRMFE2|gnome-terminal|--title="SFTP_CECPAC PPROD CRMFE2" -x sshpass -p Sviluppo.28! sftp fr008583@172.18.105.162
+CECPAC PPROD CRMBE1|gnome-terminal|--title="SFTP_CECPAC PPROD CRMBE1" -x sshpass -p Sviluppo.28! sftp fr008583@172.18.105.163
+CECPAC PPROD CRMBE2|gnome-terminal|--title="SFTP_CECPAC PPROD CRMBE2" -x sshpass -p cecpac.27! sftp fr008583@172.18.105.164
+CECPAC PPROD CRMBEGS1|gnome-terminal|--title="SFTP_CECPAC PPROD CRMBEGS1" -x sshpass -p cecpac.27! sftp fr008583@172.18.105.165
+CECPAC PPROD CRMBEGS2|gnome-terminal|--title="SFTP_CECPAC PPROD CRMBEGS2" -x sshpass -p cecpac.27! sftp fr008583@172.18.105.166
+CECPAC SVN POSTE|gnome-terminal|--title="SFTP_CECPAC_SVN_POSTE" -x sshpass -p aquila.27! sftp fr008583@svnposte
+sep
+label:PRODUZIONE
+CECPAC PROD GS1|gnome-terminal|--title="SFTP_CECPAC_PROD_GS1" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@prodGS1
+CECPAC PROD GS2|gnome-terminal|--title="SFTP_CECPAC_PROD_GS2" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@prodGS2
+CECPAC PROD GS3|gnome-terminal|--title="SFTP_CECPAC_PROD_GS3" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@prodGS3
+CECPAC PROD GS4|gnome-terminal|--title="SFTP_CECPAC_PROD_GS4" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@prodGS4
+CECPAC PROD GS5|gnome-terminal|--title="SFTP_CECPAC_PROD_GS5" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@prodGS5
+CECPAC PROD GS6|gnome-terminal|--title="SFTP_CECPAC_PROD_GS6" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@prodGS6
+CECPAC PROD GS7|gnome-terminal|--title="SFTP_CECPAC_PROD_GS7" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@prodGS7
+CECPAC PROD GS8|gnome-terminal|--title="SFTP_CECPAC_PROD_GS8" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@prodGS8
+CECPAC PROD NE1|gnome-terminal|--title="SFTP_CECPAC_PROD_NE1" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@prodNE1
+CECPAC PROD NE2|gnome-terminal|--title="SFTP_CECPAC_PROD_NE2" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@prodNE2
+CECPAC PROD NE3|gnome-terminal|--title="SFTP_CECPAC_PROD_NE3" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@prodNE3
+CECPAC PROD NE4|gnome-terminal|--title="SFTP_CECPAC_PROD_NE4" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@prodNE4
+CECPAC PROD RP1|gnome-terminal|--title="SFTP_CECPAC_PROD_RP1" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@prodRP1
+CECPAC PROD RP2|gnome-terminal|--title="SFTP_CECPAC_PROD_RP2" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@prodRP2
+CECPAC PROD RP3|gnome-terminal|--title="SFTP_CECPAC_PROD_RP3" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@prodRP3
+CECPAC PROD RP4|gnome-terminal|--title="SFTP_CECPAC_PROD_RP4" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@prodRP4
+CECPAC PROD RPFE1|gnome-terminal|--title="SFTP_CECPAC_PROD_RPFE1" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@prodRPFE1
+CECPAC PROD RPFE2|gnome-terminal|--title="SFTP_CECPAC_PROD_RPFE2" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@prodRPFE2
+CECPAC PROD SLAR1|gnome-terminal|--title="SFTP_CECPAC_PROD_SLAR1" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@prodSLAR1
+CECPAC PROD SLAR2|gnome-terminal|--title="SFTP_CECPAC_PROD_SLAR2" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@prodSLAR2
+CECPAC PROD SLAR3|gnome-terminal|--title="SFTP_CECPAC_PROD_SLAR3" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@prodSLAR3
+CECPAC PROD SLAR4|gnome-terminal|--title="SFTP_CECPAC_PROD_SLAR4" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@prodSLAR4
+CECPAC PROD SLARFE1|gnome-terminal|--title="SFTP_CECPAC_PROD_SLARFE1" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@prodSLARFE1
+CECPAC PROD SLARFE2|gnome-terminal|--title="SFTP_CECPAC_PROD_SLARFE2" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@prodSLARFE2
+folder:
+# ----------------------------------------------------------------
+#
+#	TECNOLIFE
+#
+# ----------------------------------------------------------------
+folder:TECNOLIFE
+PENTAHO|gnome-terminal|-x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@10.10.10.56
+folder:
+# ----------------------------------------------------------------
+#
+#	SHARED
+#
+# ----------------------------------------------------------------
+folder:SHARED
+HP-SHARED|gnome-terminal|-x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@localhost
+folder:
+# ----------------------------------------------------------------
+#
+#	WORKFLOW
+#
+# ----------------------------------------------------------------
+folder:WORKFLOW
+COLL DOC|gnome-terminal|--title="SFTP_WORKFLOW COLL DOC" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@collDOC
+folder:
+# ----------------------------------------------------------------
+#
+#	VIA RESTI
+#
+# ----------------------------------------------------------------
+folder:VIA RESTI
+Demo|gnome-terminal|-x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@vm70
+ESX|gnome-terminal|-x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@HW01
+ESX|gnome-terminal|-x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@HW02
+ESX|gnome-terminal|-x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@HW03
+Gestore|gnome-terminal|-x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@vm22
+Gestore|gnome-terminal|-x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@vm21
+Hudson|gnome-terminal|-x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@vm17
+MEDIATECA|gnome-terminal|-x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@vm40
+NAS|gnome-terminal|-x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@FreeNAS
+Nexus|gnome-terminal|-x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@vm16
+Oracle|gnome-terminal|-x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@vm19
+Proxy|gnome-terminal|-x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@vm8
+RAD|gnome-terminal|-x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@vm32
+RAD|gnome-terminal|-x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@vm31
+RAD|gnome-terminal|-x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@vm35
+RAD|gnome-terminal|-x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@vm37
+RAD|gnome-terminal|-x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@vm34
+SQL|gnome-terminal|-x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@vm151
+SQL|gnome-terminal|-x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@vm55
+SVN|gnome-terminal|-x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@vm7
+Site|gnome-terminal|-x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@vm18
+Sviluppo|gnome-terminal|-x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@vm61
+Sviluppo|gnome-terminal|-x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@vm71
+TANDBERG|gnome-terminal|-x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@vm44
+Telecom|gnome-terminal|-x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@vm57
+Telecom|gnome-terminal|-x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@vm56
+Test2|gnome-terminal|-x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pgigante@vm24
+folder:
+sep
+RASPBERRYPI|gnome-terminal|--title="SFTP_RASPBERRYPI VPN" -x sshpass -f /home/gigante/conf/password_sshplus.txt sftp pi@192.168.1.3

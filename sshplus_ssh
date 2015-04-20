@@ -1,0 +1,39 @@
+# Application launchers in a folder
+# ----------------------------------------------------------------
+#
+#	POSTECOM SVIL/COLL
+#
+# ----------------------------------------------------------------
+folder:POSTECOM SVIL/COLL
+label:SVILUPPO
+SVIL CATASTO LINUX|gnome-terminal|--title="SVIL_CATASTO_LINUX" --window --maximize -x sshpass -f /home/gigante/conf/password_sshplus.txt ssh pgigante@192.168.52.181
+SVIL BRETELLA/PUPPET|gnome-terminal|--title="SVIL_BRETELLA/DSA/PUPPET" --window --maximize -x sshpass -f /home/gigante/conf/password_sshplus.txt ssh pgigante@192.168.52.114
+SVIL MOBILITY|gnome-terminal|--title="SVIL_MOBILITY" --window --maximize -x sshpass -f /home/gigante/conf/password_sshplus.txt ssh pgigante@192.168.52.143
+sep:
+label:VARIE
+JENKINS|gnome-terminal|--title="JENKINS" --window --maximize -x sshpass -f /home/gigante/conf/password_sshplus.txt ssh pgigante@192.168.48.163
+sep
+label:COLLAUDO
+COLL BRETELLA|gnome-terminal|--title="COLL_BRETELLA" --window --maximize -x sshpass -f /home/gigante/conf/password_sshplus.txt ssh pgigante@192.168.55.185
+COLL QAV FE|gnome-terminal|--title="COLL_QAV_FE" --window --maximize -x sshpass -f /home/gigante/conf/password_sshplus.txt ssh pgigante@192.168.54.104
+COLL QAV BE|gnome-terminal|--title="COLL_QAV_BE" --window --maximize -x sshpass -f /home/gigante/conf/password_sshplus.txt ssh pgigante@192.168.55.213
+COLL FRAUD FE|gnome-terminal|--title="COLL_FRAUD_FE" --window --maximize -x sshpass -f /home/gigante/conf/password_sshplus.txt ssh pgigante@192.168.54.14
+COLL FRAUD BE|gnome-terminal|--title="COLL_FRAUD_BE" --window --maximize -x sshpass -f /home/gigante/conf/password_sshplus.txt ssh pgigante@192.168.55.98
+COLL BPOLPOLICY|gnome-terminal|--title="COLL_BPOLPOLICY" --window --maximize -x sshpass -f /home/gigante/conf/password_sshplus.txt ssh pgigante@192.168.55.173
+COLL INTERWOVEN|gnome-terminal|--title="COLL_INTERWOVEN" --window --maximize -x sshpass -f /home/gigante/conf/password_sshplus.txt ssh pgigante@192.168.54.245
+COLL GED-TEST-POLICY|gnome-terminal|--title="COLL_GED-TEST-POLICY" --window --maximize -x sshpass -f /home/gigante/conf/password_sshplus.txt ssh pgigante@10.208.165.236
+COLL FESP|gnome-terminal|--title="COLL_FESP" --window --maximize -x sshpass -f /home/gigante/conf/password_sshplus.txt ssh pgigante@192.168.55.246
+COLL CATASTO FE|gnome-terminal|--title="COLL_CATASTO_FE" --window --maximize -x sshpass -f /home/gigante/conf/password_sshplus.txt ssh pgigante@192.168.54.115
+COLL CATASTO BE|gnome-terminal|--title="COLL_CATASTO_BE" --window --maximize -x sshpass -f /home/gigante/conf/password_sshplus.txt ssh pgigante@192.168.55.115
+folder:
+# ----------------------------------------------------------------
+#
+#	RETAIL (WEBMAILGED)
+#
+# ----------------------------------------------------------------
+folder:RETAIL WEBMAILGED
+label:SVILUPPO
+SVIL PORTAL FE Retail|gnome-terminal|--title="SVIL_PORTAL_FE_Retail" --window --maximize -x sshpass -f /home/gigante/conf/password_sshplus.txt ssh pgigante@192.168.54.199
+SVIL PORTAL BE Retail|gnome-terminal|--title="SVIL_PORTAL_BE_Retail" --window --maximize -x sshpass -f /home/gigante/conf/password_sshplus.txt ssh pgigante@192.168.54.200
+SVIL FASCICOLO Retail|gnome-terminal|--title="SVIL_FASCICOLO_Retail" --window --maximize -x sshpass -f /home/gigante/conf/password_sshplus.txt ssh pgigante@192.168.54.198
+folder:
