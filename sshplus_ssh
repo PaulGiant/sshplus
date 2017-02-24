@@ -1,10 +1,10 @@
 # Application launchers in a folder
 # ----------------------------------------------------------------
 #
-#	POSTECOM SVIL/COLL
+#	SVIL/COLL
 #
 # ----------------------------------------------------------------
-folder:POSTECOM SVIL/COLL
+folder:SVIL/COLL
 label:SVILUPPO
 SVIL CATASTO LINUX|gnome-terminal|--title="SVIL_CATASTO_LINUX" --window --maximize -x sshpass -f /home/gigante/conf/password_sshplus.txt ssh pgigante@192.168.52.181
 SVIL BRETELLA/PUPPET|gnome-terminal|--title="SVIL_BRETELLA/DSA/PUPPET" --window --maximize -x sshpass -f /home/gigante/conf/password_sshplus.txt ssh pgigante@192.168.52.114
